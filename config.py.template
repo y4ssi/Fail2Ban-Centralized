@@ -1,0 +1,3 @@
+from pymongo import MongoClient
+conn_mongo = MongoClient('mongodb://USERNAME:PASSWORD@HOST:PORT/BD')
+dbm = conn_mongo.BD
